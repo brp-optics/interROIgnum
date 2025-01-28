@@ -1,0 +1,18 @@
+[project]
+name = "interROIgnum"
+version = "0.1.0"
+description = "Python utility to convert between FIJI ROIs and SPCImage ROIs."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "brp-optics", email = "10531278+brp-optics@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.optional-dependencies]
+test = ["pytest"]
